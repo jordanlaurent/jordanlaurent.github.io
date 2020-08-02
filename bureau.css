@@ -1,0 +1,160 @@
+﻿
+
+
+    p, h1, h2, li {
+        font-family: Arya;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    a:hover {
+        color: black;
+    }
+
+    a:visited {
+    }
+
+    a { 
+        color: white;
+    }
+
+    hr {
+        background-color: orange;
+        height: 2px;
+        border: 5px;
+    }
+
+    body, html {
+        padding: 0;
+        margin: 0;
+    }
+
+
+    /*bloc gauche*/
+    #block1 {
+        background-color: #F4D03F;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 100%;
+    }
+
+    .profilphoto {
+        margin: 0 auto;
+        padding-top: 10%;
+    }
+
+    .blacktittleblock1 {
+        background-color: #424949;
+        color: #F4D03F;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    #contact {
+        text-align: left;
+        font-size: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #loisir {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        margin-bottom: 60px;
+    }
+
+    #logoloisir {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    /*bloc droit*/
+
+    #block2 {
+        padding-left: 5%;
+        ;
+    }
+
+    #titrecontenu {
+        color: orange;
+    }
+
+.lignedev {
+    display: inline-block;
+    border-bottom: 2px solid orange;
+    
+}
+
+    .formarticle {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        line-height: 35px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .date {
+        margin-top: 5%;
+        margin-right: 10%;
+        white-space: nowrap;
+        line-height: 5px;
+    }
+
+
+    /*couleur icone*/
+
+    .fa-pencil {
+        color: orange;
+    }
+
+    .fa-circle {
+        color: orange;
+    }
+
+    .fa-circle-o-notch {
+        color: orange;
+    }
+
+    .fa-briefcase {
+        color: orange;
+    }
+
+    .fa-graduation-cap {
+        color: orange;
+    }
+}
+@media screen and (max-width: 1024px) {
+
+    #page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #page {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 10%;
+    }
+}
