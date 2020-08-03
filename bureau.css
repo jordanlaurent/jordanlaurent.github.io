@@ -64,7 +64,7 @@
         text-align: center;
     }
 
-    #contact {
+    .contact {
         text-align: left;
         font-size: 20px;
         padding-left: 5%;
@@ -111,13 +111,6 @@
         padding-top: 20px;
     }
 
-    .date {
-        margin-top: 5%;
-        margin-right: 10%;
-        white-space: nowrap;
-        line-height: 5px;
-    }
-
 
     /*couleur icone*/
 
@@ -140,13 +133,17 @@
     .fa-graduation-cap {
         color: orange;
     }
-}
 @media screen and (max-width: 1024px) {
 
     #page {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .date {
+        margin-top: 5%;
+        margin-right: 10%;
+
     }
 }
 
@@ -156,5 +153,11 @@
         flex-direction: row;
         justify-content: space-between;
         margin-right: 10%;
+    }
+    .date {
+        margin-top: 5%;
+        margin-right: 10%;
+        white-space: nowrap;
+        line-height: 5px;
     }
 }
