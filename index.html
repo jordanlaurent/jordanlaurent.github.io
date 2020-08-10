@@ -6,66 +6,55 @@
     <link rel="stylesheet" type="text/css" href="bureau.css">
     <link href='https://fonts.googleapis.com/css?family=Arya' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/9d71f1e47f.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
 </head>
 
-<body>
-    <section id="page">
+<body id="body">
 
-        <article id="block1">
-            <img src="image/profil.png" alt="photo_profil" class="profilphoto">
 
-            <h3 class="blacktittleblock1">CONTACT</h3>
-            <article class="contact">
-                <p>Adresse <br> Montelimar France</p>
-                <p>Téléphone <br> 06.35.26.66.19</p>
-                <p> Email <br><a href="mailto:laurent.jordan@outlook.fr">laurent.jordan@outlook.fr</a></p>
-                <p>Site web<br><a href="https://jordanlaurent.github.io" target="new">https://jordanlaurent.github.io</a></p>
-                <p>Linkedin <br><a class="fab fa-linkedin fa-2x" href="https://www.linkedin.com/in/jordan-laurent-33018a164/" target="new"></a></p>
-            </article>
+        <aside id="block1">
+            <img src="image/profil.png" alt="photo_profil" class="photo">
 
-            <h3 class="blacktittleblock1">À PROPOS DE MOI</h3>
+            <h3 class="titreaside">CONTACT</h3>
+                <p class="textaside">Adresse <br> Montelimar France</br>
+                Téléphone <br> 06.35.26.66.19</br>
+                 Email <br><a href="mailto:laurent.jordan@outlook.fr">laurent.jordan@outlook.fr</a></br>
+                Site web<br><a href="https://jordanlaurent.github.io" target="new">https://jordanlaurent.github.io</a></br>
+                Linkedin <br><a class="fab fa-linkedin fa-2x" href="https://www.linkedin.com/in/jordan-laurent-33018a164/" target="new"></a></p>
 
-            <div id="loisir">
-                <article class="contact">
-                    <p>
+            <h3 class="titreaside">À PROPOS DE MOI</h3>
+                 <p class="textaside">
                         Mon domaine de compétences est la création du site web en Css3 / HTML5.
                         Du front-end aux back-end en passent par le referencement grace aux balises sémantiques je crée toute sorte de site web.
                         Réseau social d'entreprise ou site e-commerce voir une  applications d'avis pour votre restaurent gastronomique.
                         Je suis actuellement à la recherche de nouvelles opportunités professionnelles.
-                    </p>
-                </article>
+                </p>
+                  
+                <div id="loisir"></div>
+                    <h3 class="titreaside">LOISIR</h3>
+                    <ul id="logoloisir">
+                        <li><i class="fa fa-html5 fa-4x" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-microchip fa-4x" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-music fa-4x" aria-hidden="true"></i></li>
+                    </ul>
 
-                <footer>
-                    <h3 class="blacktittleblock1">LOISIR</h3>
-                    <article id="logoloisir">
-                        <i class="fa fa-html5 fa-4x" aria-hidden="true"></i>
-                        <i class="fa fa-microchip fa-4x" aria-hidden="true"></i>
-                        <i class="fa fa-music fa-4x" aria-hidden="true"></i>
-                    </article>
-                </footer>
+        </aside>
 
-            </div>
-
-        </article>
-
-        <article id="block2">
+        <section id="block2">
 
             <header>
-                <h1> <span id="titrecontenu"> LAURENT </span> JORDAN </h1>
-                <h2><span class="lignedev"> Dévelo</span>ppeur web freelance</h2>
+                <h1> <span id="titresection"> LAURENT </span> JORDAN </h1>
+                <h2><span class="lignesection"> Dévelo</span>ppeur web freelance</h2>
                 <h2> <i class="fa fa-graduation-cap" aria-hidden="true"></i> Formation</h2><hr />
             </header>
 
-            <section class="formarticle">
-                <aside class="date">
-                    <p> <i class="fa fa-circle-o-notch" aria-hidden="true"></i> 2020</p>
-                    <p>Montelimar</p>
-                </aside>
-                <article>
+            <article class="misenpagearticlesection"> <!-- formation-->
+                     <p class="date"> <i class="fa fa-circle-o-notch" aria-hidden="true"></i> 2020</br> Montelimar</p>
+                     <ul class="textesection">
                     <h3>Openclassrooms</h3>
-                    <p>Developpeur Web</p>
-                    <p>Avec cette formation de développeur web réaliser sur une durée d'un an j'ai appris différents languages de programmation qui permette de créé des sites web responsifs et de les maintenir à jour. Ses différents languages sont le :</p>
-                    <ul>
+                    <p>Developpeur Web</br> 
+                        Avec cette formation de développeur web réaliser sur une durée d'un an j'ai appris différents languages de programmation qui permette de créé des sites web responsifs et de les maintenir à jour. Ses différents languages sont le :</p>
 
                         <li>HTML pour la partie central du site web</li>
 
@@ -74,81 +63,61 @@
                         <li>JAVASCRIPT pour toute les interactions utilisateurs</li>
 
                         <li>MYSQL pour la gestion des bases de données</li>
-                    </ul>
-                </article>
-            </section>
+                </ul>
 
-            <section class="formarticle">
-                <aside class="date">
-                    <p><i class="fa fa-circle" aria-hidden="true"></i> 2013</p>
-                    <p>Montargis</p>
-                </aside>
-                <article>
+                <p class="date"><i class="fa fa-circle" aria-hidden="true"></i> 2013</br> Montargis</p>
+                <ul class="textesection">
                     <h3>Lycée Jeanette Verdiers</h3>
                     <p>Bac Pro Logitique</p>
                     <p>Avec cette formation j'ai appris le  conditionnement, le stockage, la lecture des plaque de charges ou encore des documents utile a la realisation de tourner de livraison : c'est un métier où on coordonne divers opérateurs. On apprend à organiser la circulation des marchandises : réception, gestion des stocks, préparation des commandes et expédition. On travaille en extérieur et en entrepôt, on apprend aussi à conduire des enginsd de manutentions.</p>
-                </article>
-            </section>
+                </ul>
+            </article>
 
             <h2> <i class="fa fa-briefcase" aria-hidden="true"></i> Experience Professionelle</h2>
             <hr>
-            <section class="formarticle">
-                <aside class="date">
-                    <p><i class="fa fa-circle-o-notch" aria-hidden="true"></i> 03/2017 </p>
-                    <p>Montelimar</p>
-                </aside>
-                <article>
+
+            <article class="formarticle"> <!--Ancien travaille-->
+                <p class="date"> <i class="fa fa-circle-o-notch" aria-hidden="true"></i> 03/2017 </br>Montelimar</p>
+                <ul class="textesection">
                     <h3>Amazon</h3>
                     <p>Agent d'exploitation logistique confirmé</p>
                     <p>Preparations de commandes et controle qualités sur divers postes selon les procédés interne a l'entreprise</p>
-                </article>
-            </section>
-
-            <section class="formarticle">
-                    <aside class="date">
-                        <p><i class="fa fa-circle" aria-hidden="true"></i> 01/2016 - 01/2017 </p>
-                        <p>Amilly</p>
-                    </aside>
-            <article>
+                </ul>
+                 
+                <p class="date"><i class="fa fa-circle" aria-hidden="true"></i> 01/2016 - 01/2017 </br> Amilly</p>
+                 <ul class="textesection">
                     <h3>Intermarché</h3>
                     <p>Agent d'exploitation logistique confirmé</p>
                     <p>Préparation de commande à la vocale, controle qualitatif et quantitatif utilisation caces 1 remise en état zone de travail</p>
-                </article>
-            </section>
+                 </ul>
 
-            <section class="formarticle">
-                <aside class="date">
-                    <p><i class="fa fa-circle" aria-hidden="true"></i> 06/2015 - 12/2015</p>
-                    <p>Checy</p>
-                </aside>
-                <article>
+                 <p class="date"><i class="fa fa-circle" aria-hidden="true"></i> 06/2015 - 12/2015</br> Checy</p>
+                <ul class="textesection">
                     <h3>ID Logistics</h3>
                     <p>Chargeur </p>
                     <p>Chargement camions caces 1 Contrôle des marchandises Utilisation du scan Travail en équipe au sein de la plateforme Roulage / mise à disposition des palettes</p>
-                </article>
-            </section>
+                </ul>
+            </article>
 
             <h2> <i class="fa fa-pencil" aria-hidden="true"></i> Recommandations</h2>
             <hr>
 
-            <section class="formarticle">
+            <article id="recomandation"> <!-- Recomandation-->
 
-                <article>
-                    <p>Jonathan L'argent</p>
-                    <p>Directeur, Mon agence</p>
-                    <p>Téléphone</p>
-                    <p>E-mail : name@emil.com</p>
-                </article>
-                <article>
-                    <p>Maxime Picard</p>
-                    <p>Directeur, Mon agence</p>
-                    <p>Téléphone</p>
-                    <p>E-mail : name@emil.com</p>
-                </article>
-            </section>
-        </article>
-
-    </section>
+                <ul class="recomandation">
+                    <li>Jonathan L'argent</li>
+                    <li>Directeur, Mon agence</li>
+                    <li>Téléphone</li>
+                    <li>E-mail : name@emil.com</li>
+                </ul>
+                <ul class="recomandation">
+                    <li>Maxime Picard</li>
+                    <li>Directeur, Mon agence</li>
+                    <li>Téléphone</li>
+                    <li>E-mail : name@emil.com</li>
+                </ul>
+            </article>
+        </section>
     
 </body>
 </html>
