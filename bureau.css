@@ -8,10 +8,7 @@ hr {
     border          : 5px;
 }
 
-body, html {
-    padding: 0;
-    margin : 0;
-}
+
 
 
 
@@ -111,6 +108,10 @@ border-bottom: 2px solid orange;
 
 @media screen and (max-width: 1024px) {
 
+    body, html {
+        padding: 0;
+        margin: 0;
+    }
 #body {
     display        : flex;
     flex-direction : column;
@@ -160,7 +161,15 @@ a:hover {
 }
 
 @media screen and (min-width: 1024px) {
-#body {
+    body, html {
+        padding: 0;
+        margin-right : 10%;
+        margin-left: 10%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #body {
     display        : flex;
     flex-direction : row;
     justify-content: space-between;
