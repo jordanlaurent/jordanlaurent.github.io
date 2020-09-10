@@ -1,4 +1,4 @@
-<h2>Projet n°1 OpenClassRooms Transformez votre CV en site Web<h2>
+<h2>Projet n°2 OpenClassRooms Transformez votre CV en site Web<h2>
 <h3>Techno<h3>
 <p>• HTML5 • CSS<p>
 
